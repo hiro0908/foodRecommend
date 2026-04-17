@@ -13,14 +13,12 @@
 | レイヤー | 技術 | 用途 |
 |---|---|---|
 | フロントエンド | Next.js 15 (App Router) | UIフレームワーク |
-| 言語 | TypeScript | 型安全な開発 |
+| 言語 | TypeScript | 開発 |
 | UIコンポーネント | shadcn/ui + Tailwind CSS | デザインシステム |
-| グラフ | Recharts | 栄養素チャート・リングチャート |
 | バリデーション | Zod | スキーマ検証 |
 | ORM | Drizzle ORM | DB操作・型生成 |
 | 認証 | NextAuth.js v5 | OAuth / Email認証 |
 | DB | PostgreSQL (Neon) | データ永続化 |
-| データフェッチ | SWR | インクリメンタルサーチ |
 | デプロイ | Vercel | ホスティング / Edge |
  
  
