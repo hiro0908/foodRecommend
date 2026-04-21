@@ -1,7 +1,7 @@
 //DRI食事摂取基準
 export const DRI = {
     calories: 2000,
-    protain: 65,
+    protein: 65,
     iron: 10.5,
     calcium: 800,
     vitaminC: 100,
@@ -9,17 +9,17 @@ export const DRI = {
 
 export const NUTRIENT_LABELS = {
     calories: "カロリー",
-    protain: "タンパク質",
+    protein: "タンパク質",
     iron: "鉄分",
-    calusiom:"カルシウム",
+    calciom:"カルシウム",
     vitaminC: "ビタミンC"
 };
 
-export const NUTRIENT_UNIT = { 
+export const NUTRIENT_UNITS = { 
     calories: "kcal",
-    protain: "g",
+    protein: "g",
     iron: "mg",
-    calusium: "mg",
+    calcium: "mg",
     vitaminC: "mg",
 }; 
 
