@@ -1,11 +1,11 @@
-export type NutrientKey = 'calories' | 'proteins' | 'iron' | 'calcium' | 'vitaminC';
+export type NutrientKey = 'calories' | 'protein' | 'iron' | 'calcium' | 'vitaminC';
 
 export type FoodItem = {
     id: number,
     name: string,
     category: string,
     calories: number,
-    protain: number,
+    protein: number,
     iron: number,
     calcium: number,
     vitaminC: number,
