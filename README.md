@@ -131,8 +131,8 @@ Dashboard
 ### インストール
  
 ```bash
-git clone https://github.com/your-name/nutritrack
-cd nutritrack
+git clone (https://github.com/hiro0908/foodRecommend.git)
+cd foodRecommend
 npm install
 ```
  
