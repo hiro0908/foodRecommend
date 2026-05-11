@@ -55,6 +55,8 @@ export function StatCard({label,value,max,unit,color}:Props){
             display:"flex",
             alignItems:"center",
             gap:14,
+            overflow:"hidden",
+            minWidth:0,
         }}>
             <div style={{position:"relative",flexShrink:0}}>
                 <MiniRing value={value} max={max} color={color}/>
@@ -71,12 +73,12 @@ export function StatCard({label,value,max,unit,color}:Props){
                 </div>
             </div>
             <div>
-                <div style={{fontSize:11,color:"#6b7280",marginBottom:2}}>
+                <div style={{fontSize:10,color:"#ffffff",marginBottom:2}}>
                     {label}
                 </div>
-                <div style={{fontSize:15,fontWeight:700}}>
+                <div style={{fontSize:15,fontWeight:700 ,color:"#ffffff"}}>
                     {value.toFixed(value<10?1:0)}
-                    <span style={{fontSize:10,fontWeight:400,color:"#6b7280",marginLeft:2}}>
+                    <span style={{fontSize:10,fontWeight:400,color:"#ffffff",marginLeft:2}}>
                         {unit}
                     </span>
                 </div>

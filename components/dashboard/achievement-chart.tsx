@@ -46,15 +46,15 @@ export function AchievementChart({totals,colors}:Props){
                                     left:0,
                                     top:0,
                                     bottom:0,
-                                    width:"${(pct/150)*100}%",
+                                    width:`${(pct/150)*100}%`,
                                     background:color,
                                     borderRadius:4,
                                     transition:"width .8s cubic-bezier(.22,1,36,1)",
-                                    boxShadow:"0 0 10px ${color}66",
+                                    boxShadow:`0 0 10px ${color}66`,
                                 }}/>
                                 <div style={{
                                     position:"absolute",
-                                    left:"${(100 / 150) * 100}%",
+                                    left:`${(100 / 150) * 100}%`,
                                     top:0,
                                     bottom:0,
                                     width:1,
@@ -90,55 +90,34 @@ export function AchievementChart({totals,colors}:Props){
                     alignItems:"center",
                     gap:4
                 }}>
-                    <div style={{width:10,
-                        height:3,
-                        background:"rgba(255,255,255,0.2)",
-                        borderRadius:1
-                    }}>
+                    <div style={{width:10,height:3,background:"rgba(255,255,255,0.2)",borderRadius:1}}/>
                         100%
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div style={{
                     display:"flex",
                     alignItems:"center",
                     gap:4
                 }}>
-                    <div style={{
-                        width:10,
-                        height:3,
-                        background:"#ff6b6b",
-                        borderRadius:1
-                    }}>
-                        超過
-                    </div>
+                    <div style={{width:10,height:3,background:"#ff6b6b",borderRadius:1}}/>
+                    超過
+
                 </div>
                 <div style={{
                     display:"flex",
                     alignItems:"center",
                     gap:4
                 }}>
-                    <div style={{
-                        width:10,
-                        height:3,
-                        background:"#f9a84d",
-                        borderRadius:1
-                    }}>
-                        70%以上
-                    </div>
+                    <div style={{width:10,height:3,background:"#f9a84d",borderRadius:1}}/>
+                    70%以上
                 </div>
                 <div style={{
                     display:"flex",
                     alignItems:"center",
                     gap:4
                 }}>
-                    <div style={{
-                        width:10,
-                        height:3,
-                        background:"#f9a84d",
-                        borderRadius:1
-                    }}>
-                        70%未満
-                    </div>
+                    <div style={{width:10,height:3,background:"#f9a84d",borderRadius:1}}/>
+                    70%未満
                 </div>
             </div>
         </div>
